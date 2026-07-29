@@ -1,6 +1,9 @@
 print("Hello, World!")
 
-print("please enter your name: ");
-x = input();
+name = input("What is your name? ")
 
-print("Hello, " + x + "!");
+print("Hello, " + name)
+
+print("Hello,", name)
+
+print(f"Hello, {name}")
